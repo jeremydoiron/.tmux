@@ -392,7 +392,7 @@ set -g mouse on
 # move status line to top
 #set -g status-position top
 
-bind -r f run-shell "tmux neww ~/.local/scripts/tmux-sessionizer"
+bind -r C-f run-shell "tmux neww ~/.local/bin/tmux-sessionizer"
 
 
 # -- tpm -----------------------------------------------------------------------
